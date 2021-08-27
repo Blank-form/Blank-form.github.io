@@ -1,0 +1,22 @@
+.Photo
+{
+    margin: 30px 0 0 0px;
+    width: 100%;
+    max-width: 2000px;
+    cursor: url("../Hardware/1.cur"), auto;
+}  
+
+figure
+{
+    margin: 0;
+    text-align: center;
+
+}
+
+.Robot
+{
+    max-width: 120px;
+    min-width: 120px;
+    max-height: 120px;
+    min-height: 120px;
+}

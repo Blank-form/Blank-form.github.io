@@ -1,0 +1,47 @@
+body{margin: 0; background-color: black; font-family: 'Play',sans-serif; color: white; font-weight: 500; font-size: 20px;     cursor: url("../Hardware/1.cur"), auto;}
+.page
+{
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+a
+{
+    cursor: url("../Hardware/2.cur"), pointer;
+}
+
+.header
+{
+    display: flex;
+    height: auto;
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    background-color: #fff;
+
+    
+}
+
+.container
+{
+    z-index: 10;
+    height: 55px;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+
+}
+.container_a
+{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.img
+{
+    width: 128px;
+    border-radius: 50%;
+
+}
